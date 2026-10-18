@@ -6,12 +6,12 @@ int potions = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Czy masz klucz?");
 string key = Console.ReadLine();
-bool keyFlag = bool.TryParse(key, out bool result);
+bool.TryParse(key, out bool keyFlag);
 
 
 Console.WriteLine("Czy ma mapę?");
 string map = Console.ReadLine();
-bool mapFlag = bool.TryParse(map, out bool resultMap);
+bool.TryParse(map, out bool mapFlag);
 
 
 bool zyje = hp>0;
